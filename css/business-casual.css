@@ -319,7 +319,9 @@ input[readonly] {
 }
 
 .brand {
-    background-color: #0a0e31
+    background-color: #0a0e31;
+        font-family: "Times New Roman", Times, serif;
+
 }
 
 .address-bar {
