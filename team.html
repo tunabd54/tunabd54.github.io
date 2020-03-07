@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,7 +44,40 @@
 
 <body>
 
-<div class="brand" ><img  style="height: 100px" src="img/bagimsiz-logo.png" alt=""><img  style="height: auto" src="img/logo.png" alt=""> TUNA BAĞIMSIZ DENETİM A.Ş.</div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .img-container {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+</style>
+
+<div class="row" style="background-color: #0a0f2f">
+    <div class="container">
+
+        <div class="brand clearfix">
+            <div class="img-container">
+                <img src="img/logo.png" style="width:120px; float: left; margin-top: 20px">
+            </div>
+            <div class="img-container">
+                <span style="width:100%">TUNA <br><h4>Bağımsız Denetim A.Ş.</h4></span>
+            </div>
+            <div class="img-container">
+                <img src="img/bagimsiz-logo.png" style="width:120px; float: right; margin-top: 20px">
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--<div class="address-bar">Yeminli Mali Müşavir</div>-->
 
