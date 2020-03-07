@@ -9,7 +9,7 @@
     <meta name='description' content=''>
     <meta name='author' content=''>
 
-    <title>İletişim / İnsan Kaynakları - TUNA BAĞIMSIZ DENETİM A.Ş</title>
+    <title>İletişim - TUNA BAĞIMSIZ DENETİM A.Ş</title>
 
     <!-- Bootstrap Core CSS -->
     <link href='css/bootstrap.min.css' rel='stylesheet'>
@@ -66,7 +66,7 @@
                     <a href='services.html'>Hizmetlerimiz</a>
                 </li>
                 <li>
-                    <a href='contact.html'>İletişim / İnsan Kaynakları</a>
+                    <a href='contact.html'>İletişim</a>
                 </li>
             </ul>
         </div>
@@ -136,71 +136,6 @@
             <div class='clearfix'></div>
         </div>
     </div>
-
-    <div class='row'>
-        <div class='box'>
-            <div class='col-lg-12'>
-                <hr>
-                <h2 class='intro-text text-center'>
-                    <strong>İş Başvuru Formu</strong>
-                </h2>
-                <hr>
-                <p>Lütfen aşağıdaki formu eksiksiz doldurunuz. Hazırlamış olduğunuz özgeçmişinizi de ekleyerek
-                    gönderiniz.</p>
-
-                <form onsubmit="return prepareMessage()">
-
-                    <div class="form-group">
-                        <label for="userName">İsim</label>
-                        <input title="Lütfen isminizi giriniz." type="text" class="form-control" id="userName"
-                               placeholder="İsim" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="userEmail">E-posta</label>
-                        <input required title="Lütfen e-posta adresinizi giriniz." type="email" class="form-control"
-                               id="userEmail" placeholder="E-posta">
-                    </div>
-                    <div class="form-group">
-                        <label for="userPhone">Telefon</label>
-                        <input required title='Lütfen telefon numaranızı giriniz.' type="tel" class="form-control"
-                               id="userPhone" placeholder="Telefon">
-                    </div>
-                    <div class="form-group">
-                        <label for="userMessage">Önyazı</label>
-                        <textarea rows="5" maxlength="300" required title="Lütfen önyazı giriniz." type="text"
-                                  class="form-control" id="userMessage" placeholder="Önyazı"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <h4>Özgeçmiş</h4>
-
-                        <div class="input-group">
-                            <span class="input-group-btn">
-                                <span class="btn btn-primary btn-file">
-                                    Seç&hellip; <input required title="Lütfen özgeçmişinizi ekleyiniz." id="fileInput"
-                                                       type="file">
-                                </span>
-                            </span>
-                            <input type="text" class="form-control" readonly>
-                        </div>
-                    </div>
-                    <div class="checkbox">
-                        <label>
-                            <input required title="Lütfen başvurunuzu onaylayınız." id="userAgree" type="checkbox">
-                            Gönderimi onaylıyorum.
-                        </label>
-                    </div>
-                    <button id='loadingButton' class="hide btn btn-lg btn-warning"><span
-                            class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span> Bekleyiniz ...
-                    </button>
-                    <div style="text-align: center">
-                        <button type="button" onclick="prepareMessage()" class="btn btn-success">Gönder</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
 </div>
 
 <script>
