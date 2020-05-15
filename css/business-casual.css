@@ -319,21 +319,21 @@ input[readonly] {
 }
 
 .brand {
-    background-color: #0a0e31;
+    background-color: #2C54A0;
         font-family: "Times New Roman", Times, serif;
 
 }
 
 .address-bar {
-    background-color: #0a0e31
+    background-color: #2C54A0
 }
 
 .navbar-default {
-    background-color: #0a0e31
+    background-color: #2C54A0
 }
 
 footer {
-    background-color: #0a0e31;
+    background-color: #2C54A0;
 }
 
 body > footer > div > div:nth-child(1) > div > a {
